@@ -32,6 +32,25 @@ StockPulse is a real-time stock monitoring and alert system that notifies users 
 ![WhatsApp Image 2025-05-28 at 01 49 27_9daf5038](https://github.com/user-attachments/assets/392cd8ad-4db7-47ad-8401-f3960bf1979c)
 
 
+# 🧰 Tech Stack
+Frontend: HTML, Bootstrap (via Jinja2 templates in Flask)
+
+Backend: Python, Flask
+
+APIs:
+
+Alpha Vantage – for real-time stock data
+
+NewsAPI – for fetching news articles
+
+Twilio – for sending SMS and WhatsApp notifications
+
+Data Storage: JSON file-based subscription list
+
+Environment Management: python-dotenv
+
+Process Handling: subprocess.Popen to simulate scheduling
+
 # 📥Installation
 ```bash
 # Clone the repository
