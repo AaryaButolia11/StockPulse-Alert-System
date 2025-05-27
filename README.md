@@ -61,13 +61,13 @@ NEWS_ENDPOINT=https://newsapi.org/v2/everything
 
 ```
 
-#🌐 Web Interface
+# 🌐 Web Interface
 
 Users can subscribe to a stock alert by entering the stock symbol and phone number.
 ![image](https://github.com/user-attachments/assets/9f616da2-6caf-4120-b72e-348ed6b5f583)
 
 
-#📢 Alert Sample
+# 📢 Alert Sample
 
 SMS/WhatsApp messages will look like:
 
@@ -93,7 +93,7 @@ Alert Delivery: Twilio sends SMS and WhatsApp messages.
 
 Logging & Feedback: Console logs and flash messages confirm execution.
 
-#🔍 Sample Subscription JSON
+# 🔍 Sample Subscription JSON
 ```bash
 {
   "subscriptions": [
@@ -105,7 +105,7 @@ Logging & Feedback: Console logs and flash messages confirm execution.
 }
 ```
 
-#✨ Future Enhancements
+# ✨ Future Enhancements
 
 ⌚ Schedule cron jobs for daily automated runs.
 
@@ -120,14 +120,11 @@ Logging & Feedback: Console logs and flash messages confirm execution.
 💡 Add AI-based news sentiment analysis.
 
 
-#📄 License
+# 📄 License
 
 This project is licensed under the MIT License.
 
-#🚀 Author
-
-## 🚀 Author
-
+# 🚀 Author
 **Aarya Butolia**  
 🔗 [GitHub](https://github.com/AaryaButolia11)
 
