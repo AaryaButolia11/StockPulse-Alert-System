@@ -54,20 +54,17 @@ Process Handling: subprocess.Popen to simulate scheduling
 
 
 # 📁 Project Structure
-StockPulse-Alert-System/
-│<br>
-├── static/                       # Static files (CSS, JS if needed) <br>
-    └── styles.css <br>    
-├── templates/
-│   └── index.html              # HTML template for the subscription page<br>
-│<br>
-├── app.py                      # Flask application handling web interface<br>
-├── scheduler.py                # Script to fetch stock data and send alerts<br>
-├── subscriptions.json          # JSON file to store user subscriptions<br>
-├── requirements.txt            # Python dependencies<br>
-├── README.md                   # Project documentation (this file)<br>
-└── screenshots                # Folder for UI and message screenshots<br>
-    
+
+StockPulse-Alert-System/<br>
+├── static/<br>
+│   └── styles.css<br>
+├── templates/<br>
+│   └── index.html<br>
+├── app.py<br>
+├── scheduler.py<br>
+└── README.md<br>
+
+
 # 📥Installation
 ```bash
 # Clone the repository
