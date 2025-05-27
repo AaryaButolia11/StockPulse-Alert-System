@@ -32,6 +32,7 @@ StockPulse is a real-time stock monitoring and alert system that notifies users 
 ![WhatsApp Image 2025-05-28 at 01 49 27_9daf5038](https://github.com/user-attachments/assets/392cd8ad-4db7-47ad-8401-f3960bf1979c)
 
 
+
 # 🧰 Tech Stack
 Frontend: HTML, Bootstrap (via Jinja2 templates in Flask)
 
@@ -50,6 +51,27 @@ Data Storage: JSON file-based subscription list
 Environment Management: python-dotenv
 
 Process Handling: subprocess.Popen to simulate scheduling
+
+
+# 📁 Project Structure
+StockPulse-Alert-System/
+│<br>
+├── static/                      # Static files (CSS, JS if needed) <br>
+├── templates/│<br>
+│   └── index.html              # HTML template for the subscription page│<br>
+│
+├── .env                        # Environment variables (not tracked in Git)
+├── .gitignore                  # Files and folders to ignore in Git
+├── app.py                      # Flask application handling web interface
+├── scheduler.py                # Script to fetch stock data and send alerts
+├── subscriptions.json          # JSON file to store user subscriptions
+├── requirements.txt            # Python dependencies
+├── README.md                   # Project documentation (this file)
+└── screenshots/                # Folder for UI and message screenshots
+    ├── webpage.png
+    ├── text_msg.png
+    ├── json_file.png
+    └── flow.png
 
 # 📥Installation
 ```bash
